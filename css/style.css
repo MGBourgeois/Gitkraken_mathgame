@@ -1,0 +1,50 @@
+/*
+Background color gradient 3 parameters: circle, middle color, edge color*/
+body{
+    height: 100%;
+    background: radial-gradient(circle, #fff, #ccc);
+    
+}
+#container {
+    height: 400px;
+    width: 550px;
+    background-color: #9dd2ea;
+    margin: 100px auto;
+    padding: 15px;
+    border-radius: 10px; 
+    /*box-shadow:[Horizontal offset] [Vertical offset] [optional blur radius] [color]*/
+    box-shadow: 0px 4px 0px 0px #009de4;
+    position: relative;
+    
+}
+/****************************************
+        Display buttons at the top
+*****************************************/
+#score {
+    background-color: #F8EB78;
+    padding: 10px;
+    position:absolute;
+    left: 470px;
+    box-shadow: 0px 4px 0px 0px #9da853;
+}
+#correct {
+    position: absolute;
+    left: 250px;
+    background-color: #42e252;
+    font-weight: bold;
+    color: #000;
+    padding: 10px;
+    /*so will hide till activated with javascript when good answer*/
+    display: none;
+    
+}
+#wrong {
+    position: absolute;
+    left: 250px;
+    background-color: #ff0000;
+    font-weight: bold;
+    color: #000;
+    padding: 10px;
+    
+}
+
