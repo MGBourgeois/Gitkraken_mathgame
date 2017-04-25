@@ -6,7 +6,7 @@ body{
     
 }
 #container {
-    height: 400px;
+    height: 420px;
     width: 550px;
     background-color: #9dd2ea;
     margin: 100px auto;
@@ -45,6 +45,73 @@ body{
     font-weight: bold;
     color: #000;
     padding: 10px;
+    display: none;
+    
+}
+/****************************
+     Question Display
+****************************/
+#question {
+    width: 450px;
+    height: 150px;
+    margin:50px auto 10px auto;
+    background-color: #9da0ea;
+    box-shadow: 0px 4px #535aa8;
+    font-size: 110px;
+    text-align: center;
+    font-family: cursive,sans-serif;
+    color: #000;
+    
+}
+/****************************
+    Instruction Display
+****************************/
+#instruction {
+    width: 450px;
+    height: 40px;
+    line-height: 40px;
+    margin: 10px auto;
+    background-color: #b481d9;
+    box-shadow: 0px 4px #535aa8;
+    font-size: 20px;
+    text-align: center;
+    font-family: cursive,sans-serif;
+    color: #000;
+}
+
+/*********************************
+      Multiple Choice Buttons
+**********************************/
+#choices {
+    width: 450px;
+    height: 100px;
+    margin: 10px auto 10px auto;
+}
+
+.box {
+    width: 85px;
+    height: 85px;
+    text-align: center;
+    line-height: 80px;
+    color: #51535b;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: #fff;
+    float: left;
+    margin-right: 36px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0,0,0, 0.3);
+}
+.box:hover {
+    background-color: #9c89f6;
+    color: #fff;
+    box-shadow: 0px 4px #6b54d3;
+}
+
+/*here must style the last box because has no right margin */
+#box4 {
+    margin-right: 0;
     
 }
 
